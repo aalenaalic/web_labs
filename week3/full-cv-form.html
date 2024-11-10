@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <legend>Personal information</legend>
+      <label for="name">Full name:</label>
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="location"></label>
+      <input type="text" id="location" name="location" /><br />
+
+      <label for="profile">Upload profile picture:</label>
+      <input type="file" id="profile" name="profile-picture" />
+    </form>
+    <br />
+
+    <form>
+      <legend>Introduction</legend>
+      <label for="intro">Write a short introduction about you</label><br />
+      <textarea id="intro" name="intro"></textarea>
+    </form>
+    <br />
+
+    <form>
+      <legend>Skills</legend>
+      <label for="skills">Select your skill</label>
+      <input type="checkbox" id="html" name="skills" value="html" />
+      <label for="html">HTML</label><br />
+      <input type="checkbox" id="css" name="skills" value="css" />
+      <label for="html">CSS</label><br />
+      <input type="checkbox" id="javascript" name="skills" value="javascript" />
+      <label for="html">Javascript</label><br />
+    </form>
+    <br />
+
+    <form>
+      <legend>Experience</legend>
+      <label for="position">Curent position:</label>
+      <input type="text" id="position" name="curent-position" /><br />
+
+      <label for="experience">Describe your experience</label><br />
+      <textarea id="experience" name="experience"></textarea>
+    </form>
+    <br />
+    <form>
+      <legend>Education and position:</legend>
+      <label for="degree">Degree:</label>
+      <select id="degree">
+        <option>High school</option>
+        <option>College</option></select
+      ><br />
+      <label for="certification">Certification</label><br />
+      <textarea id="certification" name="certification"></textarea>
+    </form>
+    <br />
+    <form>
+      <legend>Personal project</legend>
+      <label for="project">Describe your personal project:</label><br />
+      <textarea id="project" name="project"></textarea>
+    </form>
+
+    <button type="submit">Submit CV</button>
+  </body>
+</html>
